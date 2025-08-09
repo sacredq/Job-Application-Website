@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTf-8">
+        <link rel = "stylesheet" href = "style.css">
+        <title>Forms website</title>
+    </head>
+    <body class = "setcolor">
+        <h1>Welcome to our website!</h1>
+        <div class = "displayBox">
+            <h2>Job Application 
+                <span class = "Web">(Web)</span> 
+            </h2>
+            <form action = "sumbit" method = "post">
+                <div class = "container">
+                    <div class = "row">
+                        <label for = "First Name">First Name</label>
+                        <input id = "First Name" name = "First Name" placeholder = "Enter first Name...">
+                    </div>
+
+                    <div class = "row">
+                        <label for = "Last Name">Last Name</label>
+                        <input id = "Last Name" name = "Last Name" placeholder = "Enter Last Name...">
+                    </div>
+
+                    <div class = "row">
+                        <label for = "Email">Email</label>
+                        <input type = "email" id = "Email" name = "Email" placeholder = "Enter your Email...">
+                    </div>
+
+                    <div class = "row">
+                        <label for = "Job Role">Jobe Role</label>
+                        <select id = "Job Role" name = "Job Role">
+                            <option value="">Select Job Role</option>
+                            <option value="Frontend">Frontend Development   </option>
+                            <option value="Backend">Backend Development</option>
+                            <option value="SoftWare Development">SoftWare Development</option>
+                            <option value="Full_Stack">Full Stack Development</option>
+                        </select>
+                    </div>
+
+                    <div class = "textarea_space">
+                        <label for="Address">Address</label>
+                        <textarea id="Address" name="Address" rows="4" cols="50" placeholder="Enter your Address..."></textarea>
+                    </div>
+
+                    <div class = "row">
+                        <label for = "City">City</label>
+                        <input id = "City" name = "City" placeholder = "Enter your City">
+                    </div>
+
+                    <div class = "row">
+                        <label for = "Pincode">Pincode</label>
+                        <input type = "password" id = "Pincode" name = "Pincode"> 
+                    </div>
+
+                    <div class = "row">
+                        <label for = "Date">Date</label>
+                        <input type = "date" id = "Date" name = "Start Date" value = "2000-01-01">
+                    </div>
+
+                    <div class = "row">
+                        <label for = "upload">Upload Your File</label>
+                        <input id = "upload" name = "upload" type = "file">
+                    </div>
+
+                    <div class = "button">
+                        <button type = "submit">Apply now!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
